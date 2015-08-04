@@ -4,22 +4,24 @@
 <head>
     <meta charset="utf-8"/>
 	<title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="styles/layout.css" media="screen"/>
 </head>
 <body>
     <h1>Snapshots</h1>
-    <ul>
+    <ul id="imagegallery">
         <li>
-        <a href="images/car.jpg" title="A cool car" onclick="showPic(this); return=false"> car</a>
+        <a href="images/car.jpg" title="A cool car"> car</a>
         </li>
         <li>
-        <a href="images/cartoon.jpg" title="A lovely cartoon" onclick="showPic(this); return=false"> cartoon</a>
+        <a href="images/cartoon.jpg" title="A lovely cartoon"> cartoon</a>
         </li>
         <li>
-        <a href="images/cat.jpg" title="A cute animal" onclick="showPic(this); return=false"> cat</a>
+        <a href="images/cat.jpg" title="A cute animal"> cat</a>
         </li>
     </ul>
 
     <img id="placeholder" src="images/placeholder.gif" alt="my image gallery"/>
+    <p id="description">Choose an image</p>
 	
 	<script type="text/javascript" src="scripts/showPic.js"></script>
 </body>
