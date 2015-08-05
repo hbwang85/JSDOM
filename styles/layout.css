@@ -17,6 +17,13 @@ a {
 	text-decoration: none;
 }
 
+p {
+	color: aqua;
+	background-color: transparent;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 ul {
 	padding: 0;
 }
@@ -27,6 +34,7 @@ li {
 	list-style: none;
 }
 
+
 #imagegallery {
 	list-style: none;
 }
@@ -35,7 +43,13 @@ li {
 	display: inline;
 }
 
+#imagegallery li a img {
+	border: 0;
+}
+
 img {
 	display: block;
 	clear: both;
+	width: 30em;
+	height: 30em;
 }
